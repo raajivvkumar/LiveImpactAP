@@ -1,0 +1,85 @@
+{
+  "cookies": [
+    {
+      "name": "_lisys",
+      "value": "s%3AkFkaPwVnpuE53Z9YcfVc8Mm7uQ7kHXbw.HQiNPLyowc1sZlz1it8gVsaFEGl%2BNy9nZIRl2egmndQ",
+      "domain": ".liveimpacts.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_lisys_p",
+      "value": "s%3AkFkaPwVnpuE53Z9YcfVc8Mm7uQ7kHXbw.HQiNPLyowc1sZlz1it8gVsaFEGl%2BNy9nZIRl2egmndQ",
+      "domain": ".liveimpacts.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-YNID",
+      "value": "18.YT=KHRV2V9oWVTlSkQnIj-_7A387b16JDFrkEDkpbmQxnb97VqfveqNxE8yggNDpgsJ0rSRBaOu456G7ZMYQ2VnHdeDYN5BoPjaPjMx7A_2wkAxzhezFxPqF5hNWMbS-K_gEN-Kfgp3FsWT9ckICt-3Kxlon4hsUcAaTKaAVJiBSelnOOZPp1HiyMEE31vosmphoQCJcRCrx8KPkaYYZBPBAABiRMB1ENUyTegm2REj_i4oyCeSqL4pgI78f5ipu0vYecKsgifppciJxk-Yg1p8UK_mlWeKkdzirx9ZBCP8LZSf2zlUMZGi4CHG9Ycg7eqLqZBvWmYDM3dSTdn1dVce-w",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1794626758.693487,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "YSC",
+      "value": "uWT0ohle5I0",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "YpZBDkPE0aQ",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1794626758.6938,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJJThIEGgAgKA%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1794626758.693867,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "COPP8OvB5sHQYxCshu738cGUAxishu738cGUAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1794626758.693947,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    }
+  ],
+  "origins": []
+}

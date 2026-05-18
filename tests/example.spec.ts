@@ -1,20 +1,27 @@
 import { test, expect } from "@playwright/test";
+import testData from "../utils/testData.json";
+import * as utils from "../utils/swapper";
+import { PageManager } from "../pages/PageManager";
 
-test("has title", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
+test.describe("Go go Activity", async () => {
+  let pageManager: PageManager;
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+  test.beforeEach(async ({ page }) => {
+    pageManager = new PageManager(page);
+    await pageManager.LoginPage.navigateToUrl(
+      testData.BaseUrl + testData.OrgID + testData.dashboardUrl,
+    );
+    await utils.handle_waitLoading(page);
+    // await page.waitForTimeout(15000);
+  });
 
-test("get started link", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
+  test("Go to Activity", async ({ page }) => {
+    await pageManager.BasePage.clickByText("Activities");
+    // await page.waitForTimeout(15000);
+  });
 
-  // Click the get started link.
-  await page.getByRole("link", { name: "Get started" }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(
-    page.getByRole("heading", { name: "Installation" }),
-  ).toBeVisible();
+  test("Go to Events", async ({ page }) => {
+    await pageManager.BasePage.clickByText("Events");
+    // await page.waitForTimeout(15000);
+  });
 });

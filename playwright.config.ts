@@ -1,4 +1,5 @@
 import { defineConfig, devices } from "@playwright/test";
+import testData from "./utils/testData.json";
 
 /**
  * Read environment variables from file.
@@ -28,16 +29,33 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
+    baseURL: testData.BaseUrl + testData.OrgID + testData.dashboardUrl,
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: "on-first-retry",
+    trace: "retain-on-failure",
+    video: "retain-on-failure",
+
+    // storageState: "storageState.json",
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
+      name: "setup",
+      testMatch: /.*\/login\.setup\.ts/,
+    },
+
+    {
+      name: "tests",
+      testMatch: /.*\.spec\.ts/,
+    },
+    {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      use: {
+        ...devices["Desktop Chrome"],
+        storageState: "Project_auth/storageState.json",
+      },
+      dependencies: ["setup"],
     },
 
     // {

@@ -11,11 +11,14 @@ export default class LoginPage extends BasePage {
   constructor(page: Page) {
     super(page);
 
-    this.username = page.locator("#username");
-    this.password = page.locator("#password");
-    this.loginBtn = page.locator("#login");
+    this.username = page.locator("#usernameInput");
+    this.password = page.locator("#passwordInput");
+    this.loginBtn = page.locator("#siginInBtn");
   }
 
+  async navigateToUrl(url: string) {
+    await this.page.goto(url);
+  }
   async login(user: string, pass: string) {
     await this.fill(this.username, user);
     await this.fill(this.password, pass);
