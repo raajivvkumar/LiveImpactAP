@@ -11,17 +11,22 @@ test.describe("Go go Activity", async () => {
     await pageManager.LoginPage.navigateToUrl(
       testData.BaseUrl + testData.OrgID + testData.dashboardUrl,
     );
-    await utils.handle_waitLoading(page);
+    await utils.Handle_PageLoad(page);
     // await page.waitForTimeout(15000);
   });
 
   test("Go to Activity", async ({ page }) => {
     await pageManager.BasePage.clickByText("Activities");
-    // await page.waitForTimeout(15000);
+    await utils.Handle_PageLoad(page);
   });
 
   test("Go to Events", async ({ page }) => {
     await pageManager.BasePage.clickByText("Events");
-    // await page.waitForTimeout(15000);
+    await utils.Handle_PageLoad(page);
+  });
+  test("Go to Forms", async ({ page }) => {
+    await pageManager.BasePage.clickByText("Forms");
+    await pageManager.BasePage.clickByText("Form Design");
+    await utils.Handle_PageLoad(page);
   });
 });
