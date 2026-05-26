@@ -3,8 +3,8 @@ import { Page } from "@playwright/test";
 // utils/Handle_PageLoad.ts
 
 export async function Handle_PageLoad(page: Page): Promise<void> {
-  const MAX_TIMEOUT = 60000; // 200 sec
-  const APPEAR_TIMEOUT = 4000; // 10 sec
+  const MAX_TIMEOUT = 60000; // 60 sec
+  const APPEAR_TIMEOUT = 4000; // 4 sec
 
   // =========================
   // Promise 1 - #dashLoading
@@ -12,7 +12,7 @@ export async function Handle_PageLoad(page: Page): Promise<void> {
   const dashLoading = page.locator("#dashLoading");
 
   try {
-    // Wait max 10 sec for loader to appear
+    // Wait max 4 sec for loader to appear
     await dashLoading.waitFor({
       state: "visible",
       timeout: APPEAR_TIMEOUT,
@@ -35,7 +35,7 @@ export async function Handle_PageLoad(page: Page): Promise<void> {
   const paceProgress = page.locator(".pace-progress");
 
   try {
-    // Wait max 10 sec for progress bar to appear
+    // Wait max 4 sec for progress bar to appear
     await paceProgress.waitFor({
       state: "visible",
       timeout: APPEAR_TIMEOUT,
