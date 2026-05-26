@@ -24,7 +24,7 @@ export async function Handle_PageLoad(page: Page): Promise<void> {
       timeout: MAX_TIMEOUT,
     });
 
-    console.log("✅ #dashLoading disappeared");
+    // console.log("✅ #dashLoading disappeared");
   } catch {
     console.log("ℹ️ #dashLoading did not appear");
   }
@@ -64,7 +64,7 @@ export async function Handle_PageLoad(page: Page): Promise<void> {
       ),
     ]);
 
-    console.log("✅ .pace-progress disappeared or reached data-progress=99");
+    // console.log("✅ .pace-progress disappeared or reached data-progress=99");
   } catch {
     console.log("ℹ️ .pace-progress did not appear");
   }

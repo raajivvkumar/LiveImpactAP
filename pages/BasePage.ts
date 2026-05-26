@@ -23,7 +23,8 @@ export default class BasePage {
   //Click on Link
   async clickByText(text: string) {
     const locator = this.page.getByRole("link", { name: text });
-    await locator.waitFor({ state: "visible" });
+    // await locator.waitFor({ state: "visible" });
+    await expect(locator).toBeEnabled();
     await locator.click();
   }
 
