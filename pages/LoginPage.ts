@@ -22,6 +22,7 @@ export default class LoginPage extends BasePage {
   async login(user: string, pass: string) {
     await this.fill(this.username, user);
     await this.fill(this.password, pass);
+    await this.page.waitForTimeout(4000);
     await this.click(this.loginBtn);
   }
 }

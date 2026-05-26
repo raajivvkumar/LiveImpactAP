@@ -2,13 +2,83 @@
   "cookies": [
     {
       "name": "_lisys",
-      "value": "s%3A6rsrFVgRCV3XyLUiZ9esM8EnV1tWverk.I647%2BtPcuG5qBQ3nHoPI1l%2Bk9cFV4PsWrRs7F8uQUUo",
+      "value": "s%3AIpgDFmcSqSXogDhWX9C5A34qNqu79E6p.uCek5JFJCXlTe4tzWOTx%2FZ1VA77g4VhZ3szBruwDHGo",
       "domain": ".liveimpacts.com",
       "path": "/",
       "expires": -1,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
+    },
+    {
+      "name": "_lisys_p",
+      "value": "s%3AIpgDFmcSqSXogDhWX9C5A34qNqu79E6p.uCek5JFJCXlTe4tzWOTx%2FZ1VA77g4VhZ3szBruwDHGo",
+      "domain": ".liveimpacts.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-YNID",
+      "value": "18.YT=mBK2JppuLu3Jo-fPBxg8KijVi9oEJ1-tS3gZ46jsqpz8qpp2D9OTYIO-uZ3s3b1wDxBLM1AyLhbwWn4ur0pY6Mz0B7mULW6o-05uHMRAsx_4-vECxZta29vVBghiW-IZf1udk5hPPztZ9RzLNXeAO7DRfwrt1getA--sfbDkHXntwwWRJaT-1zRAVNjBIrHSfnMojX9_LVp90V3W0YlfL3gJ9mFpdJuHwftf_9feLACQBVFAlkKHpHObk-HvtIjMGAhIGhiYcZ3ESu0H_0fUeccjzSuCXPV3FKsKci0el_iIE8hezkpEKm_94ce8A5D4IfzSMrHMUP6rIyf22tbKyg",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1795322015.821178,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "YSC",
+      "value": "UEKHDDNjVCI",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "t4ypYVPwRB8",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1795322015.821535,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJJThIEGgAgKw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1795322015.821605,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CLbsm4j35-SlnAEQ1r6-_Y_WlAMY1r6-_Y_WlAM%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1795322015.821689,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://liveimpacts.com",
+      "_crHasCrossSiteAncestor": true
     }
   ],
   "origins": []
