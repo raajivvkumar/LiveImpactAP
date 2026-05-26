@@ -25,7 +25,9 @@ test.describe("Go go Activity", async () => {
     await utils.Handle_PageLoad(page);
   });
   test("Go to Forms", async ({ page }) => {
-    await page.locator("text=Forms").click();
+    await page
+      .locator("//*[@id='side-menu']/li[*]//span[text()='Forms']/parent::a")
+      .click();
     await pageManager.BasePage.clickByText("Form Design");
     await utils.Handle_PageLoad(page);
   });
