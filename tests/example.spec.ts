@@ -25,7 +25,7 @@ test.describe("Go go Activity", async () => {
     await utils.Handle_PageLoad(page);
   });
   test("Go to Forms", async ({ page }) => {
-    await pageManager.BasePage.clickByText("Forms");
+    await page.locator("text=Forms").click();
     await pageManager.BasePage.clickByText("Form Design");
     await utils.Handle_PageLoad(page);
   });
