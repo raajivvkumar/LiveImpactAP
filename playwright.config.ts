@@ -1,5 +1,6 @@
 import { defineConfig, devices } from "@playwright/test";
 import testData from "./utils/testData.json";
+import path from "path";
 
 /**
  * Read environment variables from file.
@@ -51,6 +52,10 @@ export default defineConfig({
       testMatch: /.*\.spec\.ts/,
       use: {
         ...devices["Desktop Chrome"],
+        // Use persistent Chrome user data directory for browser profile
+        launchArgs: [
+          `--user-data-dir=${path.join(process.cwd(), "chrome-user-data")}`,
+        ],
         storageState: "Project_auth/storageState.json",
       },
       dependencies: ["setup"],
