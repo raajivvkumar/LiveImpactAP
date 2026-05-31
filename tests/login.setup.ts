@@ -1,16 +1,32 @@
-import { test as setup } from "@playwright/test";
+import { chromium, test as setup } from "@playwright/test";
 import LoginPage from "../pages/LoginPage";
 import testData from "../utils/testData.json";
-import * as utils from "../utils/swapper";
 
-setup("Login and Save Session", async ({ page }) => {
-  const loginpage = new LoginPage(page);
+setup("Login and Save Session", async () => {
+  const context = await chromium.launchPersistentContext("./chrome-user-data", {
+    channel: "chrome",
+    headless: false,
+    args: [
+      "--disable-notifications",
+      "--disable-save-password-bubble",
+      "--disable-features=AutofillServerCommunication",
+    ],
+  });
 
-  await loginpage.navigateToUrl(testData.BaseUrl);
-  await loginpage.login(testData.userName, testData.password);
-  await page.waitForTimeout(7000);
-  //   await utils.Handle_PageLoad(page);
+  try {
+    const page = context.pages()[0] || (await context.newPage());
 
-  // Save the storage state to a file after successful login
-  await page.context().storageState({ path: "Project_auth/storageState.json" });
+    const loginpage = new LoginPage(page);
+
+    await loginpage.navigateToUrl(testData.BaseUrl);
+    await loginpage.login(testData.userName, testData.password);
+
+    await page.waitForTimeout(7000);
+
+    await context.storageState({
+      path: "Project_auth/storageState.json",
+    });
+  } finally {
+    await context.close();
+  }
 });
