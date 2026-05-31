@@ -5,7 +5,7 @@ import testData from "../utils/testData.json";
 setup("Login and Save Session", async () => {
   const context = await chromium.launchPersistentContext("./chrome-user-data", {
     channel: "chrome",
-    headless: false,
+    headless: true,
     args: [
       "--disable-notifications",
       "--disable-save-password-bubble",
