@@ -1,0 +1,256 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e9]:
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - text: Children's Zone
+      - generic [ref=e18]:
+        - generic [ref=e19] [cursor=pointer]: 
+        - generic [ref=e20] [cursor=pointer]: 
+        - generic [ref=e21] [cursor=pointer]: 
+        - heading " Crash Course" [level=5] [ref=e22]:
+          - link " Crash Course" [ref=e23] [cursor=pointer]:
+            - /url: https://help.liveimpact.org/?page_id=22002
+            - generic [ref=e24]: 
+            - text: Crash Course
+        - heading " Tutorials" [level=5] [ref=e25]:
+          - link " Tutorials" [ref=e26] [cursor=pointer]:
+            - /url: https://help.liveimpact.org
+            - generic [ref=e27]: 
+            - text: Tutorials
+  - generic [ref=e31]:
+    - link "" [ref=e34] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e35]: 
+    - generic [ref=e37]:
+      - generic "Dashboard" [ref=e38] [cursor=pointer]:
+        - generic [ref=e39]: 
+      - generic "Settings" [ref=e40]
+  - navigation [ref=e42]:
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - link " Dashboard" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e47]: 
+          - text: Dashboard
+      - listitem [ref=e48]:
+        - link " Records " [ref=e49] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e50]: 
+          - text: Records
+          - generic [ref=e51]: 
+      - listitem [ref=e52]:
+        - link " Activities" [ref=e53] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e54]: 
+          - text: Activities
+      - listitem [ref=e55]:
+        - link " Payments" [ref=e56] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e57]: 
+          - text: Payments
+      - listitem [ref=e58]:
+        - link " Fundraising" [ref=e59] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e60]: 
+          - text: Fundraising
+      - listitem [ref=e61]:
+        - link " Case Manager" [ref=e62] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e63]: 
+          - text: Case Manager
+      - listitem [ref=e64]:
+        - link " Events" [ref=e65] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e66]: 
+          - text: Events
+      - listitem [ref=e67]:
+        - link " Auctions" [ref=e68] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e69]: 
+          - text: Auctions
+      - listitem [ref=e70]:
+        - link " E-Store" [ref=e71] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e72]: 
+          - text: E-Store
+      - listitem [ref=e73]:
+        - link " Outreach " [ref=e74] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e75]: 
+          - text: Outreach
+          - generic [ref=e76]: 
+        - text:         
+      - listitem [ref=e77]:
+        - link " Pipeline" [ref=e78] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e79]: 
+          - text: Pipeline
+      - listitem [ref=e80]:
+        - link " Resources " [ref=e81] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e82]: 
+          - text: Resources
+          - generic [ref=e83]: 
+        - text:     
+      - listitem [ref=e84]:
+        - link " Operations " [ref=e85] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e86]: 
+          - text: Operations
+          - generic [ref=e87]: 
+        - text:       
+      - listitem [ref=e88]:
+        - link " Forms " [ref=e89] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e90]: 
+          - text: Forms
+          - generic [ref=e91]: 
+        - text:  
+      - listitem [ref=e92]:
+        - link " Reports " [ref=e93] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e94]: 
+          - text: Reports
+          - generic [ref=e95]: 
+        - text:         
+      - listitem [ref=e96]:
+        - link " Web Editor" [ref=e97] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e98]: 
+          - text: Web Editor
+      - listitem [ref=e99]:
+        - link " Foundation " [ref=e100] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e101]: 
+          - text: Foundation
+          - generic [ref=e102]: 
+        - text: 
+      - listitem [ref=e103]:
+        - link " Settings" [ref=e104] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - generic [ref=e105]: 
+          - text: Settings
+  - generic [ref=e118]:
+    - generic [ref=e120] [cursor=pointer]:
+      - img [ref=e122]
+      - generic [ref=e123]: Org Settings
+    - generic [ref=e125] [cursor=pointer]:
+      - img [ref=e127]
+      - generic [ref=e128]: Org Structure
+    - generic [ref=e130] [cursor=pointer]:
+      - img [ref=e132]
+      - generic [ref=e133]: Access
+    - generic [ref=e135] [cursor=pointer]:
+      - img [ref=e137]
+      - generic [ref=e138]: Dashboard Creator
+    - generic [ref=e140] [cursor=pointer]:
+      - img [ref=e142]
+      - generic [ref=e143]: Relationship
+    - generic [ref=e145] [cursor=pointer]:
+      - img [ref=e147]
+      - generic [ref=e148]: Activity Types
+    - generic [ref=e150] [cursor=pointer]:
+      - img [ref=e152]
+      - generic [ref=e153]: Google Authenticator
+    - generic [ref=e155] [cursor=pointer]:
+      - img [ref=e157]
+      - generic [ref=e158]: Payment Details
+    - generic [ref=e160] [cursor=pointer]:
+      - img [ref=e162]
+      - generic [ref=e163]: Embed Paypal
+    - generic [ref=e165] [cursor=pointer]:
+      - img [ref=e167]
+      - generic [ref=e168]: Record Grid View
+    - generic [ref=e170] [cursor=pointer]:
+      - img [ref=e172]
+      - generic [ref=e173]: Payment Grid View
+    - generic [ref=e175] [cursor=pointer]:
+      - img [ref=e177]
+      - generic [ref=e178]: Process Settings
+    - generic [ref=e180] [cursor=pointer]:
+      - img [ref=e182]
+      - generic [ref=e183]: Data Quality
+    - generic [ref=e185] [cursor=pointer]:
+      - img [ref=e187]
+      - generic [ref=e188]: Import from CSV
+    - generic [ref=e190] [cursor=pointer]:
+      - img [ref=e192]
+      - generic [ref=e193]: Tags
+    - generic [ref=e195] [cursor=pointer]:
+      - img [ref=e197]
+      - generic [ref=e198]: Global Values
+    - generic [ref=e200] [cursor=pointer]:
+      - img [ref=e202]
+      - generic [ref=e203]: Create Stat
+    - generic [ref=e205] [cursor=pointer]:
+      - img [ref=e207]
+      - generic [ref=e208]: Global Values Criteria
+    - generic [ref=e210] [cursor=pointer]:
+      - img [ref=e212]
+      - generic [ref=e213]: Badges
+    - generic [ref=e215] [cursor=pointer]:
+      - img [ref=e217]
+      - generic [ref=e218]: SMTP Server
+    - generic [ref=e220] [cursor=pointer]:
+      - img [ref=e222]
+      - generic [ref=e223]: Global Record Fields
+    - generic [ref=e225] [cursor=pointer]:
+      - img [ref=e227]
+      - generic [ref=e228]: Custom Payment Fields
+    - generic [ref=e230] [cursor=pointer]:
+      - img [ref=e232]
+      - generic [ref=e233]: Mailing List
+    - generic [ref=e235] [cursor=pointer]:
+      - img [ref=e237]
+      - generic [ref=e238]: User Dashboard
+    - generic [ref=e240] [cursor=pointer]:
+      - img [ref=e242]
+      - generic [ref=e243]: Profile Plus
+    - generic [ref=e245] [cursor=pointer]:
+      - img [ref=e247]
+      - generic [ref=e248]: Custom Record Types
+    - generic [ref=e250] [cursor=pointer]:
+      - img [ref=e252]
+      - generic [ref=e253]: Global Mail Merge Tags
+    - generic [ref=e255] [cursor=pointer]:
+      - img [ref=e257]
+      - generic [ref=e258]: Reports Mail Merge Tags
+    - generic [ref=e260] [cursor=pointer]:
+      - generic [ref=e261]:
+        - img
+      - generic [ref=e262]: Dashboard Widgets
+    - generic [ref=e264] [cursor=pointer]:
+      - generic [ref=e265]:
+        - img
+      - generic [ref=e266]: Quickbooks
+    - generic [ref=e268] [cursor=pointer]:
+      - generic [ref=e269]:
+        - img
+      - generic [ref=e270]: Contact Portal
+    - generic [ref=e272] [cursor=pointer]:
+      - generic [ref=e273]:
+        - img
+      - generic [ref=e274]: Point Of Sale
+    - generic [ref=e276] [cursor=pointer]:
+      - generic [ref=e277]:
+        - img
+      - generic [ref=e278]: Esign
+    - generic [ref=e280] [cursor=pointer]:
+      - generic [ref=e281]:
+        - img
+      - generic [ref=e282]: Download Connect
+    - generic [ref=e284] [cursor=pointer]:
+      - img [ref=e286]
+      - generic [ref=e287]: External Email Integration
+    - generic [ref=e289] [cursor=pointer]:
+      - generic [ref=e290]:
+        - img
+      - generic [ref=e291]: Dashboard Metrics
+    - generic [ref=e293] [cursor=pointer]:
+      - generic [ref=e294]:
+        - img
+      - generic [ref=e295]: Text Messaging
+    - generic [ref=e297] [cursor=pointer]:
+      - img [ref=e299]
+      - generic [ref=e300]: PayPal Standalone

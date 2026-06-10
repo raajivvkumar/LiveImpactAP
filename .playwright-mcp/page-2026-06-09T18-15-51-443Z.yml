@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "Events" [ref=e40]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - button " Create Event" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: 
+            - text: Create Event
+          - button " Archived Events" [ref=e46] [cursor=pointer]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: 
+              - text: Archived Events
+        - text:  
+    - navigation [ref=e49]:
+      - list [ref=e51]:
+        - listitem [ref=e52]:
+          - link " Dashboard" [ref=e53] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e54]: 
+            - text: Dashboard
+        - listitem [ref=e55]:
+          - link " Records " [ref=e56] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e57]: 
+            - text: Records
+            - generic [ref=e58]: 
+        - listitem [ref=e59]:
+          - link " Activities" [ref=e60] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e61]: 
+            - text: Activities
+        - listitem [ref=e62]:
+          - link " Payments" [ref=e63] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e64]: 
+            - text: Payments
+        - listitem [ref=e65]:
+          - link " Fundraising" [ref=e66] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e67]: 
+            - text: Fundraising
+        - listitem [ref=e68]:
+          - link " Case Manager" [ref=e69] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e70]: 
+            - text: Case Manager
+        - listitem [ref=e71]:
+          - link " Events" [ref=e72] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e73]: 
+            - text: Events
+        - listitem [ref=e74]:
+          - link " Auctions" [ref=e75] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e76]: 
+            - text: Auctions
+        - listitem [ref=e77]:
+          - link " E-Store" [ref=e78] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e79]: 
+            - text: E-Store
+        - listitem [ref=e80]:
+          - link " Outreach " [ref=e81] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e82]: 
+            - text: Outreach
+            - generic [ref=e83]: 
+          - text:         
+        - listitem [ref=e84]:
+          - link " Pipeline" [ref=e85] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e86]: 
+            - text: Pipeline
+        - listitem [ref=e87]:
+          - link " Resources " [ref=e88] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e89]: 
+            - text: Resources
+            - generic [ref=e90]: 
+          - text:     
+        - listitem [ref=e91]:
+          - link " Operations " [ref=e92] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e93]: 
+            - text: Operations
+            - generic [ref=e94]: 
+          - text:       
+        - listitem [ref=e95]:
+          - link " Forms " [ref=e96] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e97]: 
+            - text: Forms
+            - generic [ref=e98]: 
+          - text:  
+        - listitem [ref=e99]:
+          - link " Reports " [ref=e100] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e101]: 
+            - text: Reports
+            - generic [ref=e102]: 
+          - text:         
+        - listitem [ref=e103]:
+          - link " Web Editor" [ref=e104] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e105]: 
+            - text: Web Editor
+        - listitem [ref=e106]:
+          - link " Foundation " [ref=e107] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e108]: 
+            - text: Foundation
+            - generic [ref=e109]: 
+          - text: 
+        - listitem [ref=e110]:
+          - link " Settings" [ref=e111] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e112]: 
+            - text: Settings
+    - generic [ref=e113]:
+      - generic [ref=e119]:
+        - generic [ref=e121]:
+          - text: "Important Note: If you are running a large event, fundraiser or capital campaign, we recommend lowering your"
+          - link "Braintree Fraud Settings" [ref=e122] [cursor=pointer]:
+            - /url: https://help.liveimpact.org/?p=16317
+          - text: and your
+          - link "LiveImpact CAPTCHA Threshold Limit" [ref=e123] [cursor=pointer]:
+            - /url: https://help.liveimpact.org/?p=31122
+          - text: temporarily to allow multiple simultaneous payments to go through successfully. Once the event or campaign is complete, please make sure you restore your Braintree fraud settings and CAPTCHA Threshold Limit back to what it was before for increased security.
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - text: 
+            - generic [ref=e128]:
+              - textbox "Event Name" [ref=e129]
+              - textbox "Created By" [ref=e130]
+              - combobox [ref=e131]:
+                - option "Sort By"
+                - option "Event Name"
+                - option "Created By"
+                - option "Created Date"
+              - combobox [ref=e132]:
+                - option "Select Type" [selected]
+                - option "Events"
+                - option "RSVP"
+                - option "Non Ticketing (deprecated)"
+                - option "Participant Fundraiser (deprecated)"
+              - combobox [ref=e133]:
+                - option "Active" [selected]
+                - option "Inactive"
+                - option "Active and Inactive"
+          - text: 
+      - generic [ref=e139]:
+        - link [ref=e141] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e142]
+        - generic [ref=e143]: ©2026 LiveImpact
+        - generic [ref=e144]:
+          - link "About" [ref=e145] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e146] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e147] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e148]:
+          - link "" [ref=e150] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e151]: 
+          - link [ref=e153] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e156] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e157]: 
+  - text:  

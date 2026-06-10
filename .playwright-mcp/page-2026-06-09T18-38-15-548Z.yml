@@ -1,0 +1,237 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "Dashboard" [ref=e40]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - textbox "" [ref=e44]:
+            - /placeholder: Search Records
+          - generic "GO TO RECORD DASHBOARD" [ref=e45]:
+            - generic [ref=e46]: 
+        - button "ADD / EDIT  " [ref=e47] [cursor=pointer]:
+          - text: ADD / EDIT
+          - generic [ref=e48]: 
+          - generic [ref=e49]: 
+    - navigation [ref=e50]:
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link " Dashboard" [ref=e54] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e55]: 
+            - text: Dashboard
+        - listitem [ref=e56]:
+          - link " Records " [ref=e57] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e58]: 
+            - text: Records
+            - generic [ref=e59]: 
+        - listitem [ref=e60]:
+          - link " Activities" [ref=e61] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e62]: 
+            - text: Activities
+        - listitem [ref=e63]:
+          - link " Payments" [ref=e64] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e65]: 
+            - text: Payments
+        - listitem [ref=e66]:
+          - link " Fundraising" [ref=e67] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e68]: 
+            - text: Fundraising
+        - listitem [ref=e69]:
+          - link " Case Manager" [ref=e70] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e71]: 
+            - text: Case Manager
+        - listitem [ref=e72]:
+          - link " Events" [ref=e73] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e74]: 
+            - text: Events
+        - listitem [ref=e75]:
+          - link " Auctions" [ref=e76] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e77]: 
+            - text: Auctions
+        - listitem [ref=e78]:
+          - link " E-Store" [ref=e79] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e80]: 
+            - text: E-Store
+        - listitem [ref=e81]:
+          - link " Outreach " [ref=e82] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e83]: 
+            - text: Outreach
+            - generic [ref=e84]: 
+          - text:         
+        - listitem [ref=e85]:
+          - link " Pipeline" [ref=e86] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e87]: 
+            - text: Pipeline
+        - listitem [ref=e88]:
+          - link " Resources " [ref=e89] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e90]: 
+            - text: Resources
+            - generic [ref=e91]: 
+          - text:     
+        - listitem [ref=e92]:
+          - link " Operations " [ref=e93] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e94]: 
+            - text: Operations
+            - generic [ref=e95]: 
+          - text:       
+        - listitem [ref=e96]:
+          - link " Forms " [ref=e97] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e98]: 
+            - text: Forms
+            - generic [ref=e99]: 
+          - text:  
+        - listitem [ref=e100]:
+          - link " Reports " [ref=e101] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e102]: 
+            - text: Reports
+            - generic [ref=e103]: 
+          - text:         
+        - listitem [ref=e104]:
+          - link " Web Editor" [ref=e105] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e106]: 
+            - text: Web Editor
+        - listitem [ref=e107]:
+          - link " Foundation " [ref=e108] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e109]: 
+            - text: Foundation
+            - generic [ref=e110]: 
+          - text: 
+        - listitem [ref=e111]:
+          - link " Settings" [ref=e112] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e113]: 
+            - text: Settings
+    - generic [ref=e114]:
+      - generic [ref=e119]:
+        - generic [ref=e123]:
+          - generic [ref=e127]:
+            - text: Record Graph YoY
+            - link "" [ref=e128] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?p=22971
+              - generic [ref=e129]: 
+            - generic [ref=e130]: BETA VERSION
+            - generic [ref=e131] [cursor=pointer]: 
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - text: Record Stats
+              - link "" [ref=e139] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=23021
+                - generic [ref=e140]: 
+              - generic [ref=e141]: BETA VERSION
+              - generic [ref=e142] [cursor=pointer]: 
+            - generic [ref=e146]:
+              - heading "Total Records" [level=1]
+              - generic [ref=e147]: Total Records
+        - generic [ref=e154]:
+          - generic [ref=e158]:
+            - text: Payment Graph YoY
+            - link "" [ref=e159] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?p=22967
+              - generic [ref=e160]: 
+            - generic [ref=e161]: BETA VERSION
+            - generic [ref=e162] [cursor=pointer]: 
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - text: Payment Stats
+              - link "" [ref=e170] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=22974
+                - generic [ref=e171]: 
+              - generic [ref=e172]: BETA VERSION
+              - generic [ref=e173] [cursor=pointer]: 
+            - generic [ref=e176]:
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Donor Retention FY
+                  - generic [ref=e186]:
+                    - generic "# Donor Retention FY" [ref=e187]
+                    - generic "Percent Change Year Over Year"
+                - generic [ref=e188]:
+                  - generic [ref=e189]: Upgraded Donors FY
+                  - generic [ref=e190]:
+                    - generic "# Upgraded Donors FY" [ref=e191]
+                    - generic "Percent Change Year Over Year"
+                - generic [ref=e192]:
+                  - generic [ref=e193]: Downgraded Donors FY
+                  - generic [ref=e194]:
+                    - generic "# Downgraded Donors FY" [ref=e195]
+                    - generic "Percent Change Year Over Year"
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Donor Attrition FY
+                  - generic [ref=e198]:
+                    - generic "# Donors Attrition FY" [ref=e199]
+                    - generic "Percent Change Year Over Year"
+              - generic [ref=e201]: New Donors
+              - generic:
+                - generic [ref=e202]:
+                  - generic "New Donor Current Month"
+                  - generic [ref=e203]: Current Month
+                - generic [ref=e204]:
+                  - generic "New Donor FY"
+                  - generic [ref=e205]: Current FY
+        - generic [ref=e208]:
+          - generic:  
+        - text: 
+      - generic [ref=e213]:
+        - link [ref=e215] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e216]
+        - generic [ref=e217]: ©2026 LiveImpact
+        - generic [ref=e218]:
+          - link "About" [ref=e219] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e220] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e221] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e222]:
+          - link "" [ref=e224] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e225]: 
+          - link [ref=e227] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e230] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e231]: 
+  - generic: 

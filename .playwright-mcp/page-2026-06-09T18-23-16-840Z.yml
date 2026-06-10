@@ -1,0 +1,317 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "Activities" [ref=e40]
+      - generic [ref=e42]:
+        - button " Add Activity" [active] [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 
+          - text: Add Activity
+        - button "" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: 
+        - button "" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 
+        - button "" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: 
+    - navigation [ref=e55]:
+      - list [ref=e57]:
+        - listitem [ref=e58]:
+          - link " Dashboard" [ref=e59] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e60]: 
+            - text: Dashboard
+        - listitem [ref=e61]:
+          - link " Records " [ref=e62] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e63]: 
+            - text: Records
+            - generic [ref=e64]: 
+        - listitem [ref=e65]:
+          - link " Activities" [ref=e66] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e67]: 
+            - text: Activities
+        - listitem [ref=e68]:
+          - link " Payments" [ref=e69] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e70]: 
+            - text: Payments
+        - listitem [ref=e71]:
+          - link " Fundraising" [ref=e72] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e73]: 
+            - text: Fundraising
+        - listitem [ref=e74]:
+          - link " Case Manager" [ref=e75] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e76]: 
+            - text: Case Manager
+        - listitem [ref=e77]:
+          - link " Events" [ref=e78] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e79]: 
+            - text: Events
+        - listitem [ref=e80]:
+          - link " Auctions" [ref=e81] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e82]: 
+            - text: Auctions
+        - listitem [ref=e83]:
+          - link " E-Store" [ref=e84] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e85]: 
+            - text: E-Store
+        - listitem [ref=e86]:
+          - link " Outreach " [ref=e87] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e88]: 
+            - text: Outreach
+            - generic [ref=e89]: 
+          - text:         
+        - listitem [ref=e90]:
+          - link " Pipeline" [ref=e91] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e92]: 
+            - text: Pipeline
+        - listitem [ref=e93]:
+          - link " Resources " [ref=e94] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e95]: 
+            - text: Resources
+            - generic [ref=e96]: 
+          - text:     
+        - listitem [ref=e97]:
+          - link " Operations " [ref=e98] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e99]: 
+            - text: Operations
+            - generic [ref=e100]: 
+          - text:       
+        - listitem [ref=e101]:
+          - link " Forms " [ref=e102] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e103]: 
+            - text: Forms
+            - generic [ref=e104]: 
+          - text:  
+        - listitem [ref=e105]:
+          - link " Reports " [ref=e106] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e107]: 
+            - text: Reports
+            - generic [ref=e108]: 
+          - text:         
+        - listitem [ref=e109]:
+          - link " Web Editor" [ref=e110] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e111]: 
+            - text: Web Editor
+        - listitem [ref=e112]:
+          - link " Foundation " [ref=e113] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e114]: 
+            - text: Foundation
+            - generic [ref=e115]: 
+          - text: 
+        - listitem [ref=e116]:
+          - link " Settings" [ref=e117] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e118]: 
+            - text: Settings
+    - generic [ref=e119]:
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - generic "Total Activities" [ref=e154]:
+            - heading "0" [level=1] [ref=e155]
+            - text: Total Activities
+          - generic "Total Unique Records" [ref=e156]:
+            - heading "0" [level=1] [ref=e157]
+            - text: Total Records
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]: Activity Entry Date Range *
+            - generic [ref=e161]:
+              - textbox [ref=e163]: 5/9/2026
+              - textbox [ref=e165]: 6/9/2026
+              - button "Fetch" [ref=e166] [cursor=pointer]
+          - generic [ref=e168]:
+            - generic [ref=e169]: Grid View
+            - generic [ref=e170]:
+              - combobox [ref=e171]:
+                - option "ActivityGridView1"
+                - option "All Roles"
+              - button "Search Hints" [ref=e173] [cursor=pointer]
+              - button "Clear filter" [ref=e174] [cursor=pointer]
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - generic "Select/Deselect All" [ref=e181]:
+              - checkbox [ref=e183] [cursor=pointer]
+            - generic "View Activity Details" [ref=e187]:
+              - generic "View Activity Details" [ref=e191] [cursor=pointer]: 
+            - generic "Record ID" [ref=e194]: Record ID
+            - generic "First Name" [ref=e197]: First Name
+            - generic "Last Name" [ref=e200]: Last Name
+          - generic [ref=e205]:
+            - generic "Record Tags" [ref=e206]: Record Tags
+            - generic "Activity Role" [ref=e209]: Activity Role
+            - generic "Type" [ref=e212]: Activity Type
+            - generic "Global Value Name" [ref=e215]: Global Value Name
+            - generic "Global Value Dropdown (Type)" [ref=e218]: Global Value Dropdown (Type)
+            - generic "Global Value Multiselect (Type)" [ref=e221]: Global Value Multiselect (Type)
+            - generic "Title" [ref=e224]: Title
+            - generic "Status" [ref=e227]: Status
+            - generic "Due Date" [ref=e230]: Due Date
+            - generic "Completed Date" [ref=e233]: Completed Date
+            - generic "Checkbox" [ref=e236]: Checkbox
+            - generic "dropdown" [ref=e239]: Dropdown
+            - generic "Multiselect" [ref=e242]: Multiselect
+            - generic "Note" [ref=e245]: Note
+            - generic "Assigned to" [ref=e248]: Assigned to
+            - generic "Reference" [ref=e251]: Reference
+            - generic "Reference" [ref=e254]: Payment Reference
+            - generic "Created By" [ref=e257]: Created By
+            - generic "Activity Entry Date" [ref=e260]: Entry Date
+            - generic "Activity Update Date" [ref=e263]: Update Date
+          - generic [ref=e269]:
+            - textbox [ref=e274]
+            - textbox [ref=e276]
+            - textbox [ref=e278]
+          - generic [ref=e291]:
+            - textbox [ref=e293]
+            - textbox [ref=e295]
+            - textbox [ref=e297]
+            - textbox [ref=e299]
+            - textbox [ref=e301]
+            - textbox [ref=e303]
+            - textbox [ref=e305]
+            - textbox [ref=e307]
+            - generic [ref=e310] [cursor=pointer]: 
+            - generic [ref=e313] [cursor=pointer]: 
+            - textbox [ref=e315]
+            - textbox [ref=e317]
+            - textbox [ref=e319]
+            - textbox [ref=e321]
+            - textbox [ref=e323]
+            - textbox [ref=e325]
+            - textbox [ref=e327]
+            - textbox [ref=e329]
+            - generic [ref=e332] [cursor=pointer]: 
+            - generic [ref=e335] [cursor=pointer]: 
+      - generic [ref=e131]:
+        - link [ref=e133] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e134]
+        - generic [ref=e135]: ©2026 LiveImpact
+        - generic [ref=e136]:
+          - link "About" [ref=e137] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e138] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e139] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e140]:
+          - link "" [ref=e142] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e143]: 
+          - link [ref=e145] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e148] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e149]: 
+  - generic: 
+  - generic [ref=e355]:
+    - generic [ref=e356]:
+      - button [ref=e357] [cursor=pointer]: ×
+      - heading "Add Record" [level=2] [ref=e358]
+    - generic [ref=e362]:
+      - heading "Existing Record Create New Record" [level=4] [ref=e365]:
+        - text: Existing Record
+        - generic [ref=e366] [cursor=pointer]: Create New Record
+      - generic [ref=e368]:
+        - generic [ref=e369]: Name
+        - generic [ref=e371]:
+          - textbox "First Name" [ref=e373]
+          - textbox "Last Name" [ref=e375]
+      - generic [ref=e380]:
+        - generic [ref=e381]: Email
+        - textbox "Email Address" [ref=e383]
+      - generic [ref=e385]:
+        - generic [ref=e386]: Role *
+        - combobox [ref=e388]:
+          - option "Select Role" [selected]
+          - option "Activity_Import (Children's Zone)"
+          - option "Activity_Import (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Board Members (Children's Zone)"
+          - option "Board Members (Development)"
+          - option "CL-Client (Children's Zone)"
+          - option "CL-Client (Candle Light Demo1)"
+          - option "CL-Client (Mohali)"
+          - option "CL-Client (Program)"
+          - option "Client (Children's Zone)"
+          - option "Client (Program)"
+          - option "Client (Mohali)"
+          - option "Client (Amritsar)"
+          - option "Corporate Volunteers (Children's Zone)"
+          - option "Corporate Volunteers (Volunteer)"
+          - option "Div_Members (Children's Zone)"
+          - option "Div_Members (Finance)"
+          - option "Donors (Children's Zone)"
+          - option "Donors (Development)"
+          - option "Donors (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Donors (Merge Testing) (Children's Zone)"
+          - option "Donors FB Fields (Children's Zone)"
+          - option "Donors GR Fields (Children's Zone)"
+          - option "Donors Sys Fields (Children's Zone)"
+          - option "Foundation (Children's Zone)"
+          - option "Foundation (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Hipaa_MultiPin (Children's Zone)"
+          - option "Hipaa_SamePin (Children's Zone)"
+          - option "Hipaa_SamePin (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Imp_FAT_Dept (Development)"
+          - option "Imp_FAT_DoNotEdit (Children's Zone)"
+          - option "Imp_FAT_DoNotEdit (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Imp_RF_All_Fields (Children's Zone)"
+          - option "Imp_RF_All_Fields (Development)"
+          - option "Imp_ScenarioTest (Children's Zone)"
+          - option "Individual Volunteers (Children's Zone)"
+          - option "Individual Volunteers (Development)"
+          - option "Individual Volunteers (Volunteer)"
+          - option "Members (Children's Zone)"
+          - option "Multipurpose (Children's Zone)"
+          - option "Multipurpose (Dept1_F'A\"T#T$e%s@t!^i&n*g)"
+          - option "Prospects (Children's Zone)"
+          - option "Prospects (Development)"
+          - option "Rec_Form_All_Fields (Gurdaspur)"
+          - option "Role_Automation (Children's Zone)"
+          - option "Same Pin (Children's Zone)"
+          - option "TestingDepDivLevel (Children's Zone)"
+          - option "TestingDepDivLevel (Gurdaspur)"
+    - button " Add Record" [ref=e392] [cursor=pointer]:
+      - generic [ref=e393]: 
+      - text: Add Record
+  - text:  

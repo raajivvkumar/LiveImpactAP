@@ -1,0 +1,266 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "All Records" [ref=e40]
+      - generic [ref=e42]:
+        - text:               
+        - button "" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: 
+        - button "" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: 
+        - text: 
+    - navigation [ref=e47]:
+      - list [ref=e49]:
+        - listitem [ref=e50]:
+          - link " Dashboard" [ref=e51] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e52]: 
+            - text: Dashboard
+        - listitem [ref=e53]:
+          - link " Records " [ref=e54] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e55]: 
+            - text: Records
+            - generic [ref=e56]: 
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "All Records" [ref=e59] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/0/0/0
+                - text: All Records
+            - listitem [ref=e60]:
+              - link "Activity_Import" [ref=e61] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/221844/0/0
+                - text: Activity_Import
+            - listitem [ref=e62]:
+              - link "Board Members" [ref=e63] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110408/0/0
+                - text: Board Members
+            - listitem [ref=e64]:
+              - link "CL-Client" [ref=e65] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/112025/0/0
+                - text: CL-Client
+            - listitem [ref=e66]:
+              - link "Client" [ref=e67] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110461/0/0
+                - text: Client
+            - listitem [ref=e68]:
+              - link "Corporate Volunteers" [ref=e69] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110412/0/0
+                - text: Corporate Volunteers
+            - listitem [ref=e70]:
+              - link "Div_Members" [ref=e71] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/232003/0/0
+                - text: Div_Members
+            - listitem [ref=e72]:
+              - link "Donors" [ref=e73] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110406/0/0
+                - text: Donors
+            - listitem [ref=e74]:
+              - link "Donors FB Fields" [ref=e75] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130325/0/0
+                - text: Donors FB Fields
+            - listitem [ref=e76]:
+              - link "Donors GR Fields" [ref=e77] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130302/0/0
+                - text: Donors GR Fields
+            - listitem [ref=e78]:
+              - link "Donors Sys Fields" [ref=e79] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130293/0/0
+                - text: Donors Sys Fields
+            - listitem [ref=e80]:
+              - link "Foundation" [ref=e81] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130439/0/0
+                - text: Foundation
+            - listitem [ref=e82]:
+              - link "Hipaa_MultiPin" [ref=e83] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/203059/0/0
+                - text: Hipaa_MultiPin
+            - listitem [ref=e84]:
+              - link "Hipaa_SamePin" [ref=e85] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/203057/0/0
+                - text: Hipaa_SamePin
+            - listitem [ref=e86]:
+              - link "Imp_FAT_DoNotEdit" [ref=e87] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/164170/0/0
+                - text: Imp_FAT_DoNotEdit
+            - listitem [ref=e88]:
+              - link "Imp_ScenarioTest" [ref=e89] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/206591/0/0
+                - text: Imp_ScenarioTest
+            - listitem [ref=e90]:
+              - link "Individual Volunteers" [ref=e91] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110414/0/0
+                - text: Individual Volunteers
+            - listitem [ref=e92]:
+              - link "Members" [ref=e93] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/226896/0/0
+                - text: Members
+            - listitem [ref=e94]:
+              - link "Multipurpose" [ref=e95] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/112013/0/0
+                - text: Multipurpose
+            - listitem [ref=e96]:
+              - link "Prospects" [ref=e97] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110410/0/0
+                - text: Prospects
+            - listitem [ref=e98]:
+              - link "Role_Automation" [ref=e99] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/187191/0/0
+                - text: Role_Automation
+            - listitem [ref=e100]:
+              - link "Same Pin" [ref=e101] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/232015/0/0
+                - text: Same Pin
+            - listitem [ref=e102]:
+              - link "TestingDepDivLevel" [ref=e103] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/164856/0/0
+                - text: TestingDepDivLevel
+        - listitem [ref=e104]:
+          - link " Activities" [ref=e105] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e106]: 
+            - text: Activities
+        - listitem [ref=e107]:
+          - link " Payments" [ref=e108] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e109]: 
+            - text: Payments
+        - listitem [ref=e110]:
+          - link " Fundraising" [ref=e111] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e112]: 
+            - text: Fundraising
+        - listitem [ref=e113]:
+          - link " Case Manager" [ref=e114] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e115]: 
+            - text: Case Manager
+        - listitem [ref=e116]:
+          - link " Events" [ref=e117] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e118]: 
+            - text: Events
+        - listitem [ref=e119]:
+          - link " Auctions" [ref=e120] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e121]: 
+            - text: Auctions
+        - listitem [ref=e122]:
+          - link " E-Store" [ref=e123] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e124]: 
+            - text: E-Store
+        - listitem [ref=e125]:
+          - link " Outreach " [ref=e126] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e127]: 
+            - text: Outreach
+            - generic [ref=e128]: 
+          - text:         
+        - listitem [ref=e129]:
+          - link " Pipeline" [ref=e130] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e131]: 
+            - text: Pipeline
+        - listitem [ref=e132]:
+          - link " Resources " [ref=e133] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e134]: 
+            - text: Resources
+            - generic [ref=e135]: 
+          - text:     
+        - listitem [ref=e136]:
+          - link " Operations " [ref=e137] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e138]: 
+            - text: Operations
+            - generic [ref=e139]: 
+          - text:       
+        - listitem [ref=e140]:
+          - link " Forms " [ref=e141] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e142]: 
+            - text: Forms
+            - generic [ref=e143]: 
+          - text:  
+        - listitem [ref=e144]:
+          - link " Reports " [ref=e145] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e146]: 
+            - text: Reports
+            - generic [ref=e147]: 
+          - text:         
+        - listitem [ref=e148]:
+          - link " Web Editor" [ref=e149] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e150]: 
+            - text: Web Editor
+        - listitem [ref=e151]:
+          - link " Foundation " [ref=e152] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e153]: 
+            - text: Foundation
+            - generic [ref=e154]: 
+          - text: 
+        - listitem [ref=e155]:
+          - link " Settings" [ref=e156] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e157]: 
+            - text: Settings
+    - generic [ref=e158]:
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - generic [ref=e167]: " Total Records:"
+          - generic [ref=e173]:
+            - button "Clear filter" [ref=e174] [cursor=pointer]
+            - text: 
+        - button "Search Hints" [ref=e178] [cursor=pointer]
+      - generic [ref=e187]:
+        - link [ref=e189] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e190]
+        - generic [ref=e191]: ©2026 LiveImpact
+        - generic [ref=e192]:
+          - link "About" [ref=e193] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e194] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e195] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e196]:
+          - link "" [ref=e198] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e199]: 
+          - link [ref=e201] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e204] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e205]: 
+  - generic: 
+  - text:    

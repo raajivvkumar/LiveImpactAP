@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "Form Design" [ref=e40]
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - textbox "Search Form Name" [ref=e48]
+          - generic "Show Forms" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]: 
+        - combobox [ref=e52]:
+          - option "Sort by" [selected]
+          - option "Name (A-Z)"
+          - option "Name (Z-A)"
+          - option "Created Date (oldest)"
+          - option "Created Date (newest)"
+          - option "Update Date (oldest)"
+          - option "Update Date (newest)"
+          - option "Type (A-Z)"
+          - option "Type (Z-A)"
+        - combobox [ref=e54]:
+          - option "Select type" [selected]
+          - option "Basic"
+          - option "Payment"
+          - option "Record"
+          - option "Record Role Dashboard"
+          - option "Tabular"
+        - button " Archived Forms" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 
+          - text: Archived Forms
+        - button " Create Form" [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: 
+          - text: Create Form
+    - navigation [ref=e61]:
+      - list [ref=e63]:
+        - listitem [ref=e64]:
+          - link " Dashboard" [ref=e65] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e66]: 
+            - text: Dashboard
+        - listitem [ref=e67]:
+          - link " Records " [ref=e68] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e69]: 
+            - text: Records
+            - generic [ref=e70]: 
+        - listitem [ref=e71]:
+          - link " Activities" [ref=e72] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e73]: 
+            - text: Activities
+        - listitem [ref=e74]:
+          - link " Payments" [ref=e75] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e76]: 
+            - text: Payments
+        - listitem [ref=e77]:
+          - link " Fundraising" [ref=e78] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e79]: 
+            - text: Fundraising
+        - listitem [ref=e80]:
+          - link " Case Manager" [ref=e81] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e82]: 
+            - text: Case Manager
+        - listitem [ref=e83]:
+          - link " Events" [ref=e84] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e85]: 
+            - text: Events
+        - listitem [ref=e86]:
+          - link " Auctions" [ref=e87] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e88]: 
+            - text: Auctions
+        - listitem [ref=e89]:
+          - link " E-Store" [ref=e90] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e91]: 
+            - text: E-Store
+        - listitem [ref=e92]:
+          - link " Outreach " [ref=e93] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e94]: 
+            - text: Outreach
+            - generic [ref=e95]: 
+          - text:         
+        - listitem [ref=e96]:
+          - link " Pipeline" [ref=e97] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e98]: 
+            - text: Pipeline
+        - listitem [ref=e99]:
+          - link " Resources " [ref=e100] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e101]: 
+            - text: Resources
+            - generic [ref=e102]: 
+          - text:     
+        - listitem [ref=e103]:
+          - link " Operations " [ref=e104] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e105]: 
+            - text: Operations
+            - generic [ref=e106]: 
+          - text:       
+        - listitem [ref=e107]:
+          - link " Forms " [ref=e108] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e109]: 
+            - text: Forms
+            - generic [ref=e110]: 
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link " Form Design" [ref=e113] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e114]: 
+                - text: Form Design
+            - listitem [ref=e115]:
+              - link " Form Data" [ref=e116] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e117]: 
+                - text: Form Data
+        - listitem [ref=e118]:
+          - link " Reports " [ref=e119] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e120]: 
+            - text: Reports
+            - generic [ref=e121]: 
+          - text:         
+        - listitem [ref=e122]:
+          - link " Web Editor" [ref=e123] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e124]: 
+            - text: Web Editor
+        - listitem [ref=e125]:
+          - link " Foundation " [ref=e126] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e127]: 
+            - text: Foundation
+            - generic [ref=e128]: 
+          - text: 
+        - listitem [ref=e129]:
+          - link " Settings" [ref=e130] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e131]: 
+            - text: Settings
+    - generic [ref=e132]:
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: Name
+          - generic [ref=e143]: ID
+          - generic [ref=e144]: Access / Type
+          - generic [ref=e145]: Edit
+          - generic [ref=e146]: Clone
+          - generic [ref=e147]: Delete
+          - generic "Archive" [ref=e148]
+        - generic [ref=e150]:
+          - checkbox [ref=e151] [cursor=pointer]
+          - generic [ref=e152]: Show all forms
+      - generic [ref=e157]:
+        - link [ref=e159] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e160]
+        - generic [ref=e161]: ©2026 LiveImpact
+        - generic [ref=e162]:
+          - link "About" [ref=e163] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e164] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e165] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e166]:
+          - link "" [ref=e168] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e169]: 
+          - link [ref=e171] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e174] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e175]: 
+  - text:  

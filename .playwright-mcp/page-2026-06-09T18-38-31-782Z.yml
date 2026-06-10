@@ -1,0 +1,425 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e9]:
+        - generic [ref=e13]:
+          - img [ref=e14]
+          - text: Children's Zone
+        - generic [ref=e18]:
+          - generic [ref=e19] [cursor=pointer]: 
+          - generic [ref=e20] [cursor=pointer]: 
+          - generic [ref=e21] [cursor=pointer]: 
+          - heading " Crash Course" [level=5] [ref=e22]:
+            - link " Crash Course" [ref=e23] [cursor=pointer]:
+              - /url: https://help.liveimpact.org/?page_id=22002
+              - generic [ref=e24]: 
+              - text: Crash Course
+          - heading " Tutorials" [level=5] [ref=e25]:
+            - link " Tutorials" [ref=e26] [cursor=pointer]:
+              - /url: https://help.liveimpact.org
+              - generic [ref=e27]: 
+              - text: Tutorials
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - link "" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e35]: 
+        - generic [ref=e37]:
+          - generic "Dashboard" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: 
+          - generic "Dashboard" [ref=e40]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - textbox "" [ref=e44]:
+            - /placeholder: Search Records
+          - generic "GO TO RECORD DASHBOARD" [ref=e45]:
+            - generic [ref=e46]: 
+        - button "ADD / EDIT  " [ref=e47] [cursor=pointer]:
+          - text: ADD / EDIT
+          - generic [ref=e48]: 
+          - generic [ref=e49]: 
+    - navigation [ref=e50]:
+      - list [ref=e52]:
+        - listitem [ref=e53]:
+          - link " Dashboard" [ref=e54] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e55]: 
+            - text: Dashboard
+        - listitem [ref=e56]:
+          - link " Records " [expanded] [active] [ref=e465] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e58]: 
+            - text: Records
+            - generic [ref=e59]: 
+          - list [ref=e466]:
+            - listitem [ref=e467]:
+              - link "All Records" [ref=e468] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/0/0/0
+                - text: All Records
+            - listitem [ref=e469]:
+              - link "Activity_Import" [ref=e470] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/221844/0/0
+                - text: Activity_Import
+            - listitem [ref=e471]:
+              - link "Board Members" [ref=e472] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110408/0/0
+                - text: Board Members
+            - listitem [ref=e473]:
+              - link "CL-Client" [ref=e474] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/112025/0/0
+                - text: CL-Client
+            - listitem [ref=e475]:
+              - link "Client" [ref=e476] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110461/0/0
+                - text: Client
+            - listitem [ref=e477]:
+              - link "Corporate Volunteers" [ref=e478] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110412/0/0
+                - text: Corporate Volunteers
+            - listitem [ref=e479]:
+              - link "Div_Members" [ref=e480] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/232003/0/0
+                - text: Div_Members
+            - listitem [ref=e481]:
+              - link "Donors" [ref=e482] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110406/0/0
+                - text: Donors
+            - listitem [ref=e483]:
+              - link "Donors FB Fields" [ref=e484] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130325/0/0
+                - text: Donors FB Fields
+            - listitem [ref=e485]:
+              - link "Donors GR Fields" [ref=e486] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130302/0/0
+                - text: Donors GR Fields
+            - listitem [ref=e487]:
+              - link "Donors Sys Fields" [ref=e488] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130293/0/0
+                - text: Donors Sys Fields
+            - listitem [ref=e489]:
+              - link "Foundation" [ref=e490] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/130439/0/0
+                - text: Foundation
+            - listitem [ref=e491]:
+              - link "Hipaa_MultiPin" [ref=e492] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/203059/0/0
+                - text: Hipaa_MultiPin
+            - listitem [ref=e493]:
+              - link "Hipaa_SamePin" [ref=e494] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/203057/0/0
+                - text: Hipaa_SamePin
+            - listitem [ref=e495]:
+              - link "Imp_FAT_DoNotEdit" [ref=e496] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/164170/0/0
+                - text: Imp_FAT_DoNotEdit
+            - listitem [ref=e497]:
+              - link "Imp_ScenarioTest" [ref=e498] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/206591/0/0
+                - text: Imp_ScenarioTest
+            - listitem [ref=e499]:
+              - link "Individual Volunteers" [ref=e500] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110414/0/0
+                - text: Individual Volunteers
+            - listitem [ref=e501]:
+              - link "Members" [ref=e502] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/226896/0/0
+                - text: Members
+            - listitem [ref=e503]:
+              - link "Multipurpose" [ref=e504] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/112013/0/0
+                - text: Multipurpose
+            - listitem [ref=e505]:
+              - link "Prospects" [ref=e506] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/110410/0/0
+                - text: Prospects
+            - listitem [ref=e507]:
+              - link "Role_Automation" [ref=e508] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/187191/0/0
+                - text: Role_Automation
+            - listitem [ref=e509]:
+              - link "Same Pin" [ref=e510] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/232015/0/0
+                - text: Same Pin
+            - listitem [ref=e511]:
+              - link "TestingDepDivLevel" [ref=e512] [cursor=pointer]:
+                - /url: https://staging.liveimpacts.com/contacts/liu/11946/crmuser/manage/164856/0/0
+                - text: TestingDepDivLevel
+        - listitem [ref=e60]:
+          - link " Activities" [ref=e61] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e62]: 
+            - text: Activities
+        - listitem [ref=e63]:
+          - link " Payments" [ref=e64] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e65]: 
+            - text: Payments
+        - listitem [ref=e66]:
+          - link " Fundraising" [ref=e67] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e68]: 
+            - text: Fundraising
+        - listitem [ref=e69]:
+          - link " Case Manager" [ref=e70] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e71]: 
+            - text: Case Manager
+        - listitem [ref=e72]:
+          - link " Events" [ref=e73] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e74]: 
+            - text: Events
+        - listitem [ref=e75]:
+          - link " Auctions" [ref=e76] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e77]: 
+            - text: Auctions
+        - listitem [ref=e78]:
+          - link " E-Store" [ref=e79] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e80]: 
+            - text: E-Store
+        - listitem [ref=e81]:
+          - link " Outreach " [ref=e82] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e83]: 
+            - text: Outreach
+            - generic [ref=e84]: 
+          - text:         
+        - listitem [ref=e85]:
+          - link " Pipeline" [ref=e86] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e87]: 
+            - text: Pipeline
+        - listitem [ref=e88]:
+          - link " Resources " [ref=e89] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e90]: 
+            - text: Resources
+            - generic [ref=e91]: 
+          - text:     
+        - listitem [ref=e92]:
+          - link " Operations " [ref=e93] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e94]: 
+            - text: Operations
+            - generic [ref=e95]: 
+          - text:       
+        - listitem [ref=e96]:
+          - link " Forms " [ref=e97] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e98]: 
+            - text: Forms
+            - generic [ref=e99]: 
+          - text:  
+        - listitem [ref=e100]:
+          - link " Reports " [ref=e101] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e102]: 
+            - text: Reports
+            - generic [ref=e103]: 
+          - text:         
+        - listitem [ref=e104]:
+          - link " Web Editor" [ref=e105] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e106]: 
+            - text: Web Editor
+        - listitem [ref=e107]:
+          - link " Foundation " [ref=e108] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e109]: 
+            - text: Foundation
+            - generic [ref=e110]: 
+          - text: 
+        - listitem [ref=e111]:
+          - link " Settings" [ref=e112] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic [ref=e113]: 
+            - text: Settings
+    - generic [ref=e114]:
+      - generic [ref=e119]:
+        - generic [ref=e123]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - text: Record Graph YoY
+              - link "" [ref=e128] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=22971
+                - generic [ref=e129]: 
+              - generic [ref=e130]: BETA VERSION
+              - generic [ref=e131] [cursor=pointer]: 
+            - img [ref=e233]:
+              - generic [ref=e238]: Months
+              - generic [ref=e240]: Cumulative Record Count
+              - generic [ref=e242]: New Record Count
+              - generic [ref=e302]:
+                - generic [ref=e303]: Jun
+                - generic [ref=e304]: Jul
+                - generic [ref=e305]: Aug
+                - generic [ref=e306]: Sep
+                - generic [ref=e307]: Oct
+                - generic [ref=e308]: Nov
+                - generic [ref=e309]: Dec
+                - generic [ref=e310]: Jan
+                - generic [ref=e311]: Feb
+                - generic [ref=e312]: Mar
+                - generic [ref=e313]: Apr
+                - generic [ref=e314]: May
+              - generic [ref=e315]:
+                - generic [ref=e316]: "0"
+                - generic [ref=e317]: 2k
+                - generic [ref=e318]: 4k
+                - generic [ref=e319]: 6k
+                - generic [ref=e320]: 8k
+              - generic [ref=e321]:
+                - generic [ref=e322]: "0"
+                - generic [ref=e323]: "100"
+                - generic [ref=e324]: "200"
+                - generic [ref=e325]: "300"
+                - generic [ref=e326]: "400"
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - text: Record Stats
+              - link "" [ref=e139] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=23021
+                - generic [ref=e140]: 
+              - generic [ref=e141]: BETA VERSION
+              - generic [ref=e142] [cursor=pointer]: 
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - heading "6,438" [level=1] [ref=e327]
+                - generic [ref=e147]: Total Records
+              - generic [ref=e328]:
+                - heading "52" [level=1] [ref=e329]
+                - generic [ref=e330]: New Records (Last 7 Days)
+                - generic [ref=e331]: 05/05/2026 to 05/11/2026
+                - generic "Percent Change Week Over Week" [ref=e332]: +5200.0%
+              - generic [ref=e333]:
+                - heading "52" [level=1] [ref=e334]
+                - generic [ref=e335]: New Records (Current Month)
+                - generic [ref=e336]: May, 2026
+                - generic "Percent Change Month Over Month" [ref=e337]: +188.9%
+              - generic [ref=e338]:
+                - heading "398" [level=1] [ref=e339]
+                - generic [ref=e340]: New Records (Current FY)
+                - generic [ref=e341]: April, 2026 to May, 2026
+                - generic "Percent Change Year Over Year" [ref=e342]: +947.4%
+        - generic [ref=e154]:
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - text: Payment Graph YoY
+              - link "" [ref=e159] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=22967
+                - generic [ref=e160]: 
+              - generic [ref=e161]: BETA VERSION
+              - generic [ref=e162] [cursor=pointer]: 
+            - img [ref=e344]:
+              - generic [ref=e349]: Months
+              - generic [ref=e351]: Payment Amount
+              - generic [ref=e353]: "# Payments"
+              - generic [ref=e413]:
+                - generic [ref=e414]: Jun
+                - generic [ref=e415]: Jul
+                - generic [ref=e416]: Aug
+                - generic [ref=e417]: Sep
+                - generic [ref=e418]: Oct
+                - generic [ref=e419]: Nov
+                - generic [ref=e420]: Dec
+                - generic [ref=e421]: Jan
+                - generic [ref=e422]: Feb
+                - generic [ref=e423]: Mar
+                - generic [ref=e424]: Apr
+                - generic [ref=e425]: May
+              - generic [ref=e426]:
+                - generic [ref=e427]: $0
+                - generic [ref=e428]: $100k
+                - generic [ref=e429]: $200k
+                - generic [ref=e430]: $300k
+                - generic [ref=e431]: $400k
+              - generic [ref=e432]:
+                - generic [ref=e433]: "0"
+                - generic [ref=e434]: "100"
+                - generic [ref=e435]: "200"
+                - generic [ref=e436]: "300"
+                - generic [ref=e437]: "400"
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - text: Payment Stats
+              - link "" [ref=e170] [cursor=pointer]:
+                - /url: https://help.liveimpact.org/?p=22974
+                - generic [ref=e171]: 
+              - generic [ref=e172]: BETA VERSION
+              - generic [ref=e173] [cursor=pointer]: 
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]:
+                  - generic "Last 7 days Amount" [ref=e439]: $112
+                  - generic [ref=e440]:
+                    - generic "Last 7 days Count" [ref=e441]: (1)
+                    - generic "Last 7 days Average" [ref=e442]: $112.0
+                  - generic [ref=e444]: Last 7 Days
+                - generic [ref=e179]:
+                  - generic "Current Month Amount" [ref=e446]: $7,849
+                  - generic [ref=e447]:
+                    - generic "Current Month Count" [ref=e448]: (6)
+                    - generic "Current Month Average" [ref=e449]: $1308.2
+                  - generic [ref=e451]: Current Month
+                - generic [ref=e180]:
+                  - generic "Current FY Amount" [ref=e453]: $107,393
+                  - generic [ref=e454]:
+                    - generic "Current FY Count" [ref=e455]: (89)
+                    - generic "Current FY Average" [ref=e456]: $1206.7
+                  - generic [ref=e458]: Current FY
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Donor Retention FY
+                  - generic [ref=e186]:
+                    - generic "# Donor Retention FY" [ref=e187]: "89"
+                    - generic "Percent Change Year Over Year" [ref=e459]: 15.6%
+                - generic [ref=e188]:
+                  - generic [ref=e189]: Upgraded Donors FY
+                  - generic [ref=e190]:
+                    - generic "# Upgraded Donors FY" [ref=e191]: "25"
+                    - generic "Percent Change Year Over Year" [ref=e460]: 4.4%
+                - generic [ref=e192]:
+                  - generic [ref=e193]: Downgraded Donors FY
+                  - generic [ref=e194]:
+                    - generic "# Downgraded Donors FY" [ref=e195]: "45"
+                    - generic "Percent Change Year Over Year" [ref=e461]: 7.9%
+                - generic [ref=e196]:
+                  - generic [ref=e197]: Donor Attrition FY
+                  - generic [ref=e198]:
+                    - generic "# Donors Attrition FY" [ref=e199]: "483"
+                    - generic "Percent Change Year Over Year" [ref=e462]: 84.4%
+              - generic [ref=e201]: New Donors
+              - generic:
+                - generic [ref=e202]:
+                  - generic "New Donor Current Month" [ref=e463]: "0"
+                  - generic [ref=e203]: Current Month
+                - generic [ref=e204]:
+                  - generic "New Donor FY" [ref=e464]: "270"
+                  - generic [ref=e205]: Current FY
+        - generic [ref=e208]:
+          - generic:   
+        - text: 
+      - generic [ref=e213]:
+        - link [ref=e215] [cursor=pointer]:
+          - /url: //www.liveimpact.org
+          - img [ref=e216]
+        - generic [ref=e217]: ©2026 LiveImpact
+        - generic [ref=e218]:
+          - link "About" [ref=e219] [cursor=pointer]:
+            - /url: //www.liveimpact.org
+          - link "Terms and Conditions" [ref=e220] [cursor=pointer]:
+            - /url: /LiveImpactTerms-and-Conditions.htm
+          - link "Contact Us" [ref=e221] [cursor=pointer]:
+            - /url: //www.liveimpact.org/contact.html
+        - generic [ref=e222]:
+          - link "" [ref=e224] [cursor=pointer]:
+            - /url: //www.facebook.com/liveimpactcrm
+            - generic [ref=e225]: 
+          - link [ref=e227] [cursor=pointer]:
+            - /url: //twitter.com/liveimpactorg
+          - link "" [ref=e230] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/liveimpact
+            - generic [ref=e231]: 
+  - generic: 
