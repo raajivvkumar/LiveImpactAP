@@ -12,7 +12,7 @@ test.describe("Activities Feature", () => {
   test.beforeEach(async ({ page }) => {
     pageManager = new PageManager(page);
     await pageManager.LoginPage.navigateToUrl(
-      testData.BaseUrl + testData.OrgID + testData.dashboardUrl
+      testData.BaseUrl + testData.OrgID + testData.dashboardUrl,
     );
     await utils.Handle_PageLoad(page);
   });
@@ -30,7 +30,9 @@ test.describe("Activities Feature", () => {
       await expect(page).toHaveURL(/activity/);
 
       // Verify Activities dashboard is displayed
-      await expect(page.locator('heading:has-text("Total Activities")')).toBeVisible();
+      await expect(
+        page.locator('heading:has-text("Total Activities")'),
+      ).toBeVisible();
     });
 
     // TC-ACT-002: Verify Activities page displays the header "Activities"
@@ -51,7 +53,9 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Verify Activities link is visible in the sidebar menu
-      const activitiesLink = page.locator('a[href="javascript:void(0);"]').locator('text=Activities');
+      const activitiesLink = page
+        .locator('a[href="javascript:void(0);"]')
+        .locator("text=Activities");
       await expect(activitiesLink).toBeVisible();
     });
   });
@@ -94,7 +98,7 @@ test.describe("Activities Feature", () => {
       await expect(tableRows).toBeDefined();
 
       // Verify select/deselect all checkbox is visible (indicates table exists)
-      const selectAllCheckbox = page.locator('checkbox');
+      const selectAllCheckbox = page.locator("checkbox");
       await expect(selectAllCheckbox).toBeVisible();
     });
 
@@ -107,7 +111,7 @@ test.describe("Activities Feature", () => {
       await expect(tableContainer).toBeVisible();
 
       // Verify search functionality text boxes are visible
-      const searchBoxes = page.locator('textbox');
+      const searchBoxes = page.locator("textbox");
       await expect(searchBoxes.first()).toBeVisible();
     });
   });
@@ -124,15 +128,17 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Verify date filter inputs are visible
-      const dateRangeLabel = page.locator('generic:has-text("Activity Entry Date Range")');
+      const dateRangeLabel = page.locator(
+        'generic:has-text("Activity Entry Date Range")',
+      );
       await expect(dateRangeLabel).toBeVisible();
 
       // Verify start date input field
-      const startDateInput = page.locator('textbox').first();
+      const startDateInput = page.locator("textbox").first();
       await expect(startDateInput).toBeVisible();
 
       // Verify end date input field
-      const endDateInput = page.locator('textbox').nth(1);
+      const endDateInput = page.locator("textbox").nth(1);
       await expect(endDateInput).toBeVisible();
 
       // Verify Fetch button is visible
@@ -145,7 +151,7 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Click on start date input field
-      const startDateInput = page.locator('textbox').first();
+      const startDateInput = page.locator("textbox").first();
       await pageManager.BasePage.click(startDateInput);
 
       // Verify the input is clickable and focused
@@ -177,7 +183,7 @@ test.describe("Activities Feature", () => {
       await expect(searchHintsButton).toBeVisible();
 
       // Verify search input fields are present in the table
-      const searchInputs = page.locator('textbox');
+      const searchInputs = page.locator("textbox");
       // There should be multiple search inputs for different columns
       await expect(searchInputs.first()).toBeVisible();
     });
@@ -222,7 +228,7 @@ test.describe("Activities Feature", () => {
       const emailField = page.locator('textbox[placeholder="Email Address"]');
       await expect(emailField).toBeVisible();
 
-      const roleField = page.locator('combobox');
+      const roleField = page.locator("combobox");
       await expect(roleField).toBeVisible();
     });
 
@@ -279,7 +285,7 @@ test.describe("Activities Feature", () => {
       await expect(tableContainer).toBeVisible();
 
       // Verify search/filter inputs are available for locating records to delete
-      const searchInputs = page.locator('textbox');
+      const searchInputs = page.locator("textbox");
       await expect(searchInputs.first()).toBeVisible();
     });
 
@@ -288,7 +294,7 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Verify the table has select/deselect checkbox indicating row selection
-      const selectAllCheckbox = page.locator('checkbox').first();
+      const selectAllCheckbox = page.locator("checkbox").first();
       await expect(selectAllCheckbox).toBeVisible();
 
       // Verify table headers indicating editable columns
@@ -313,7 +319,7 @@ test.describe("Activities Feature", () => {
       await expect(gridViewLabel).toBeVisible();
 
       // Verify Grid View dropdown is visible
-      const gridViewCombobox = page.locator('combobox').first();
+      const gridViewCombobox = page.locator("combobox").first();
       await expect(gridViewCombobox).toBeVisible();
     });
 
@@ -325,7 +331,9 @@ test.describe("Activities Feature", () => {
       const recordIdColumn = page.locator('generic:has-text("Record ID")');
       await expect(recordIdColumn).toBeVisible();
 
-      const activityTypeColumn = page.locator('generic:has-text("Activity Type")');
+      const activityTypeColumn = page.locator(
+        'generic:has-text("Activity Type")',
+      );
       await expect(activityTypeColumn).toBeVisible();
 
       const statusColumn = page.locator('generic:has-text("Status")');
@@ -345,18 +353,24 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Verify sidebar is visible
-      const sidebar = page.locator('navigation').first();
+      const sidebar = page.locator("navigation").first();
       await expect(sidebar).toBeVisible();
 
       // Verify Activities link is highlighted/visible in sidebar
-      const activitiesLink = page.locator('a[href="javascript:void(0);"]').locator('text=Activities');
+      const activitiesLink = page
+        .locator('a[href="javascript:void(0);"]')
+        .locator("text=Activities");
       await expect(activitiesLink).toBeVisible();
 
       // Verify other menu items are accessible
-      const dashboardLink = page.locator('a[href="javascript:void(0);"]').locator('text=Dashboard');
+      const dashboardLink = page
+        .locator('a[href="javascript:void(0);"]')
+        .locator("text=Dashboard");
       await expect(dashboardLink).toBeVisible();
 
-      const recordsLink = page.locator('a[href="javascript:void(0);"]').locator('text=Records');
+      const recordsLink = page
+        .locator('a[href="javascript:void(0);"]')
+        .locator("text=Records");
       await expect(recordsLink).toBeVisible();
     });
 
@@ -369,7 +383,9 @@ test.describe("Activities Feature", () => {
       await expect(breadcrumbSection).toBeVisible();
 
       // Verify "Activities" text in breadcrumb
-      const activitiesBreadcrumb = page.locator('generic:has-text("Activities")');
+      const activitiesBreadcrumb = page.locator(
+        'generic:has-text("Activities")',
+      );
       await expect(activitiesBreadcrumb).toBeVisible();
     });
 
@@ -378,11 +394,13 @@ test.describe("Activities Feature", () => {
       page,
     }) => {
       // Verify top navigation header is visible
-      const topHeader = page.locator('navigation').first();
+      const topHeader = page.locator("navigation").first();
       await expect(topHeader).toBeVisible();
 
       // Verify page title in the header
-      const pageTitle = page.locator('heading:has-text("Activities") | generic:has-text("Activities")');
+      const pageTitle = page.locator(
+        'heading:has-text("Activities") | generic:has-text("Activities")',
+      );
       await expect(pageTitle).toBeVisible();
 
       // Verify footer is visible
@@ -390,7 +408,9 @@ test.describe("Activities Feature", () => {
       await expect(footer).toBeVisible();
 
       // Verify copyright text in footer
-      const copyrightText = page.locator('generic:has-text("©2026 LiveImpact")');
+      const copyrightText = page.locator(
+        'generic:has-text("©2026 LiveImpact")',
+      );
       await expect(copyrightText).toBeVisible();
     });
   });
@@ -411,22 +431,30 @@ test.describe("Activities Feature", () => {
     // Additional test: Verify Total Activities counter
     test("Verify Total Activities counter is visible", async ({ page }) => {
       // Verify Total Activities heading
-      const totalActivitiesHeading = page.locator('heading:has-text("0") | heading:has-text("1")');
+      const totalActivitiesHeading = page.locator(
+        'heading:has-text("0") | heading:has-text("1")',
+      );
       await expect(totalActivitiesHeading).toBeVisible();
 
       // Verify Total Activities text
-      const totalActivitiesText = page.locator('generic:has-text("Total Activities")');
+      const totalActivitiesText = page.locator(
+        'generic:has-text("Total Activities")',
+      );
       await expect(totalActivitiesText).toBeVisible();
     });
 
     // Additional test: Verify Total Records counter
     test("Verify Total Records counter is visible", async ({ page }) => {
       // Verify Total Records heading
-      const totalRecordsHeading = page.locator('heading:has-text("0") | heading:has-text("1")');
+      const totalRecordsHeading = page.locator(
+        'heading:has-text("0") | heading:has-text("1")',
+      );
       await expect(totalRecordsHeading).toBeVisible();
 
       // Verify Total Records text
-      const totalRecordsText = page.locator('generic:has-text("Total Records")');
+      const totalRecordsText = page.locator(
+        'generic:has-text("Total Records")',
+      );
       await expect(totalRecordsText).toBeVisible();
     });
 
@@ -440,9 +468,9 @@ test.describe("Activities Feature", () => {
     // Additional test: Verify column filter inputs
     test("Verify column filter inputs are available", async ({ page }) => {
       // Verify multiple filter input fields below the column headers
-      const filterInputs = page.locator('textbox');
+      const filterInputs = page.locator("textbox");
       const inputCount = await filterInputs.count();
-      
+
       // Should have at least some filter inputs
       expect(inputCount).toBeGreaterThan(0);
     });
@@ -454,7 +482,9 @@ test.describe("Activities Feature", () => {
       await expect(summarySection).toBeVisible();
 
       // Verify activity entry date range section
-      const dateRangeSection = page.locator('generic:has-text("Activity Entry Date Range")');
+      const dateRangeSection = page.locator(
+        'generic:has-text("Activity Entry Date Range")',
+      );
       await expect(dateRangeSection).toBeVisible();
     });
   });

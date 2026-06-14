@@ -50,7 +50,7 @@
     },
     {
       "name": "_lisys",
-      "value": "s%3A8qqauR-dr0NS0xpAfsI27512vHg2D7RR.dZUnkUgRnTfcYEQX%2FSEsCqiw1bC%2FAozsYuBgJA9HEEo",
+      "value": "s%3AvGVe0mKb1wGeTcDp5dSzkOKV6YZh7Z73.MXNBVBJSKzNYwpHRRwsZcomQDTGQXYyGRD%2Fwk6ixYSk",
       "domain": ".liveimpacts.com",
       "path": "/",
       "expires": -1,
@@ -60,23 +60,13 @@
     },
     {
       "name": "_lisys_p",
-      "value": "s%3A8qqauR-dr0NS0xpAfsI27512vHg2D7RR.dZUnkUgRnTfcYEQX%2FSEsCqiw1bC%2FAozsYuBgJA9HEEo",
+      "value": "s%3AvGVe0mKb1wGeTcDp5dSzkOKV6YZh7Z73.MXNBVBJSKzNYwpHRRwsZcomQDTGQXYyGRD%2Fwk6ixYSk",
       "domain": ".liveimpacts.com",
       "path": "/",
       "expires": -1,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
-    },
-    {
-      "name": "YSC",
-      "value": "2nps4f_rbj4",
-      "domain": ".youtube.com",
-      "path": "/",
-      "expires": -1,
-      "httpOnly": true,
-      "secure": true,
-      "sameSite": "None"
     }
   ],
   "origins": []

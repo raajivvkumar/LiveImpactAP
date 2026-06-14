@@ -18,6 +18,7 @@ export default class LoginPage extends BasePage {
 
   async navigateToUrl(url: string) {
     await this.page.goto(url);
+    await this.page.waitForLoadState("networkidle");
   }
   async login(user: string, pass: string) {
     await this.fill(this.username, user);
